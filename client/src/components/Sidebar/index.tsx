@@ -1,5 +1,4 @@
 "use client";
-
 import { LockIcon } from "lucide-react";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -19,7 +18,7 @@ const Sidebar = () => {
         </div>
         {/* TEAM */}
         <div className="flex items-center gap-5 border-y-[1.5px] border-gray-200 px-8 py-4 dark:border-gray-700">
-          <Image src="/logo.png" alt="Logo" width={40} height={40} />
+          <Image src="/logo.svg" alt="Logo" width={40} height={40} />
           <div>
             <h3 className="text-md font-bold tracking-wide dark:text-gray-200">
               EARTH TEAM
